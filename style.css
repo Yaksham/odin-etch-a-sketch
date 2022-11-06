@@ -1,0 +1,28 @@
+/* html, body {
+    height: 100%;
+    margin: 0;
+} */
+
+#main {
+    display: flex;
+    flex-direction: column;
+    width: 100vmin;
+    height: 100vmin;
+}
+
+.block {
+    border: 2px solid lavender;
+    background-color: thistle;
+    transition: all .1s ease;
+    flex-grow: 1;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+}
+
+.active {
+    background-color: coral
+}
